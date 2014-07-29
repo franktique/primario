@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+xmlns:h="http://xmlns.jcp.org/jsf/html">
+<h:head>
+
+</h:head>
+<h:body>
+<h1 class="title">Navigate via Java</h1>
+<h:form>
+<h:panelGrid columns="2" styleClass="formTable">
+First Name:
+<h:inputText value="#{registrationBean.firstName}"/>
+Last Name:
+<h:inputText value="#{registrationBean.lastName}"/>
+Email Address:
+<h:inputText value="#{registrationBean.emailAddress}"/>
+</h:panelGrid>
+<h:commandButton value="Register" action="#{registrationBean.doRegistration}"/>
+</h:form>
+</h:body>
+</html>
