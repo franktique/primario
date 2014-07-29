@@ -12,7 +12,7 @@
        client-side uses more bandwidth but fewer server resources.
        Client-side also helps to avoid the dreaded view expired exceptions.
       
-       From JSF 2 and PrimeFaces tutorial 
+       From JSF 2 and PrimeFaces tutorial (aaa)
        at http://www.coreservlets.com/JSF-Tutorial/jsf2/
   -->
   <servlet>
